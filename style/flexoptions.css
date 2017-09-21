@@ -1,0 +1,41 @@
+body {
+    display: flex;
+}
+
+.menu {
+    flex: 0 0 200px;
+    background-color: #ef9934;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 100%;
+    justify-content: space-between;
+}
+
+.container .content {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 100 100;
+    justify-content: flex-end;
+}
+
+.container #content {
+    flex: 100 100;
+}
+
+.container .content .add {
+    flex: 0 0 150px;
+    background-color: red;
+}
+
+.container header {
+    flex: 0 0 80px;
+    background-color: blue;
+}
+
+.container footer {
+    flex: 0 0 60px;
+    background-color: green;
+}
